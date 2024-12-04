@@ -14,6 +14,7 @@ function Card({ value, isFlipped, onClick }) {
 }
 
 // I can't figure out why it won't match the letters and stay on. 
+// It keeps changing the letters back to orignal 
 function Board({ cards, flippedCards, handleCardClick }) {
     return (
         <div className="board">
